@@ -110,7 +110,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;TRANSPORT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
@@ -147,8 +147,6 @@
     <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\FastCamel.h" />
     <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\MagicCarpet.h" />
     <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Transport.h" />
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\BootsAT.cpp" />
@@ -158,15 +156,7 @@
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Eagle.cpp" />
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\FastCamel.cpp" />
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\MagicCarpet.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\netology_5.racegame.cpp" />
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Transport.cpp" />
-    <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

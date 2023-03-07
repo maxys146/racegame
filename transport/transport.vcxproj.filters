@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\BootsAT.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -47,12 +41,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\BootsAT.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -72,9 +60,6 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\MagicCarpet.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\netology_5.racegame.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Transport.cpp">
