@@ -55,8 +55,6 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
 
-    // TODO Сделать проект на основе Makefile
-    // TODO Перенести классы в библиотеку
 
     // Общие данные
     int userInput = 0;
