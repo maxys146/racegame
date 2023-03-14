@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="racegame.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\transport\transport.vcxproj">
+      <Project>{7655c061-55d5-4207-a903-f6c64931501d}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
