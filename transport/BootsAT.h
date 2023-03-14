@@ -4,7 +4,7 @@ class BootsAT :
     public Transport
 {
 public:
-    BootsAT();
-    double getTotalRaceTime() override;
+    __declspec(dllexport) BootsAT();
+    __declspec(dllexport) double getTotalRaceTime() override;
 };
 

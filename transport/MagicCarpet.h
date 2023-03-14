@@ -4,7 +4,7 @@ class MagicCarpet :
     public Transport
 {
 public:
-    MagicCarpet();
-    double getTotalRaceTime() override;
+    __declspec(dllexport) MagicCarpet();
+    __declspec(dllexport) double getTotalRaceTime() override;
 };
 

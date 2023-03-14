@@ -4,7 +4,7 @@ class FastCamel :
     public Transport
 {
 public:
-    FastCamel();
-    double getTotalRaceTime() override;
+    __declspec(dllexport) FastCamel();
+    __declspec(dllexport) double getTotalRaceTime() override;
 };
 

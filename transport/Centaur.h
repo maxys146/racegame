@@ -4,7 +4,7 @@ class Centaur :
     public Transport
 {
 public:
-    Centaur();
-    double getTotalRaceTime() override;
+    __declspec(dllexport) Centaur();
+    __declspec(dllexport) double getTotalRaceTime() override;
 };
 

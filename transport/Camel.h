@@ -4,7 +4,7 @@ class Camel :
     public Transport
 {
 public:
-    Camel();
-    double getTotalRaceTime() override;
+    __declspec(dllexport) Camel();
+    __declspec(dllexport) double getTotalRaceTime() override;
 };
 

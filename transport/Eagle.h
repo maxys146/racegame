@@ -4,7 +4,7 @@ class Eagle :
     public Transport
 {
 public:
-    Eagle();
-    double getTotalRaceTime() override;
+    __declspec(dllexport) Eagle();
+    __declspec(dllexport) double getTotalRaceTime() override;
 };
 

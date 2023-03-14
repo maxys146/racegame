@@ -20,10 +20,10 @@ protected:
     int transportId = 0;
     int transportType = 1; //Тип транспорта (1 - наземный, 2 - воздушный)
 public:
-    bool setDistance(int distance);
-    virtual double getTotalRaceTime();
-    std::string getName();
-    int getType();
-    int getId();
+    __declspec(dllexport) bool setDistance(int distance);
+    __declspec(dllexport) virtual double getTotalRaceTime();
+    __declspec(dllexport) std::string getName();
+    __declspec(dllexport) int getType();
+    __declspec(dllexport) int getId();
 };
 

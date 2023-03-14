@@ -4,7 +4,7 @@ class Broom :
     public Transport
 {
 public:
-    Broom();
-    double getTotalRaceTime() override;
+    __declspec(dllexport) Broom();
+    __declspec(dllexport) double getTotalRaceTime() override;
 };
 
