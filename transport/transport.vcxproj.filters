@@ -15,54 +15,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\BootsAT.h">
+    <ClInclude Include="BootsAT.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Broom.h">
+    <ClInclude Include="Broom.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Camel.h">
+    <ClInclude Include="Camel.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Centaur.h">
+    <ClInclude Include="Centaur.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Eagle.h">
+    <ClInclude Include="Eagle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\FastCamel.h">
+    <ClInclude Include="FastCamel.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\MagicCarpet.h">
+    <ClInclude Include="MagicCarpet.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Transport.h">
+    <ClInclude Include="Transport.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\BootsAT.cpp">
+    <ClCompile Include="BootsAT.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Broom.cpp">
+    <ClCompile Include="Broom.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Camel.cpp">
+    <ClCompile Include="Camel.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Centaur.cpp">
+    <ClCompile Include="Centaur.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Eagle.cpp">
+    <ClCompile Include="Eagle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\FastCamel.cpp">
+    <ClCompile Include="FastCamel.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\MagicCarpet.cpp">
+    <ClCompile Include="MagicCarpet.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Transport.cpp">
+    <ClCompile Include="Transport.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

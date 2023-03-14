@@ -1,6 +1,13 @@
 #pragma once
 #include <iostream>
 
+#ifdef TRANSPORT_DLL_EXPORT
+#define TRANSPORT_DLL_API __declspec(dllexport)
+#else
+#define TRANSPORT_DLL_API __declspec(dllimport)
+#endif // TRANSPORT_DLL_EXPORT
+
+
 class Transport
 {
 protected:
@@ -20,10 +27,10 @@ protected:
     int transportId = 0;
     int transportType = 1; //Тип транспорта (1 - наземный, 2 - воздушный)
 public:
-    __declspec(dllexport) bool setDistance(int distance);
-    __declspec(dllexport) virtual double getTotalRaceTime();
-    __declspec(dllexport) std::string getName();
-    __declspec(dllexport) int getType();
-    __declspec(dllexport) int getId();
+    TRANSPORT_DLL_API bool setDistance(int distance);
+    TRANSPORT_DLL_API virtual double getTotalRaceTime();
+    TRANSPORT_DLL_API std::string getName();
+    TRANSPORT_DLL_API int getType();
+    TRANSPORT_DLL_API int getId();
 };
 
