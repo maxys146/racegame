@@ -139,24 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\BootsAT.h" />
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Broom.h" />
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Camel.h" />
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Centaur.h" />
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Eagle.h" />
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\FastCamel.h" />
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\MagicCarpet.h" />
-    <ClInclude Include="..\..\maxys146\CPPM-3\netology_5.racegame\Transport.h" />
+    <ClInclude Include="BootsAT.h" />
+    <ClInclude Include="Broom.h" />
+    <ClInclude Include="Camel.h" />
+    <ClInclude Include="Centaur.h" />
+    <ClInclude Include="Eagle.h" />
+    <ClInclude Include="FastCamel.h" />
+    <ClInclude Include="MagicCarpet.h" />
+    <ClInclude Include="Transport.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\BootsAT.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Broom.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Camel.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Centaur.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Eagle.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\FastCamel.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\MagicCarpet.cpp" />
-    <ClCompile Include="..\..\maxys146\CPPM-3\netology_5.racegame\Transport.cpp" />
+    <ClCompile Include="BootsAT.cpp" />
+    <ClCompile Include="Broom.cpp" />
+    <ClCompile Include="Camel.cpp" />
+    <ClCompile Include="Centaur.cpp" />
+    <ClCompile Include="Eagle.cpp" />
+    <ClCompile Include="FastCamel.cpp" />
+    <ClCompile Include="MagicCarpet.cpp" />
+    <ClCompile Include="Transport.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
