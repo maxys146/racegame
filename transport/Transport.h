@@ -30,7 +30,6 @@ public:
     TRANSPORT_DLL_API bool setDistance(int distance);
     TRANSPORT_DLL_API virtual double getTotalRaceTime();
     TRANSPORT_DLL_API std::string getName();
-    TRANSPORT_DLL_API int getType();
     TRANSPORT_DLL_API int getId();
 };
 
